@@ -37,8 +37,8 @@ def predict():
         gender = form["gender"]
         country = form["country"]
         highest_deg = form["highest_deg"]
-        coding_exp = form["coding_exp"]
-        title = form["title"]
+        coding_exp = form["code_experience"]
+        title = form["current_title"]
         company_size = form["company_size"]
 
         print(age, gender, country, highest_deg, coding_exp, title, company_size)
